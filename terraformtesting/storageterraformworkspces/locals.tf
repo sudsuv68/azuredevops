@@ -4,7 +4,7 @@ locals {
 
   # Per-workspace configuration
   env_config = {
-    dev = {
+    azuredevops = {
       location             = "australiaeast"
       resource_group_name  = "rg-storage-dev"
       storage_account_name = "ststoragedev01"
