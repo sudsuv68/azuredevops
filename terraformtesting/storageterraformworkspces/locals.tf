@@ -18,6 +18,6 @@ locals {
   
 
   # Select config for the active workspace
-  current = local.env_config[local.env]
+  current = azuredevops
 }
 }
