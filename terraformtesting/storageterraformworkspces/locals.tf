@@ -7,7 +7,7 @@ locals {
     azuredevops = {
       location             = "australiaeast"
       resource_group_name  = "rg-storage-dev"
-      storage_account_name = "ststoragedev01"
+      storage_account_name = "ststoragedev02"
       tags = {
         environment = "dev"
         managed_by  = "terraform"
