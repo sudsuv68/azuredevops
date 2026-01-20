@@ -1,3 +1,5 @@
+## Azure VNet and Subnet Zoning Explained
+
 Subnets aren’t “in an Availability Zone” in Azure
 A VNet and its subnets are regional (e.g., australiaeast) and not tied to AZ1/AZ2.
 
@@ -16,7 +18,7 @@ Optional: “zoned mode” creates 8 subnets (each tier split into az1 + az2)
 
 
 
-What the module will create
+### What the Module Will Create
 VNet + subnets
 Workload private subnet: no inbound from internet, outbound via NAT (optional)
 
