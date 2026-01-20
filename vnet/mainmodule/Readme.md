@@ -32,7 +32,7 @@ Web/Public subnet: allows inbound from internet (80/443 by default), outbound in
 Mgmt subnet (4th subnet): for bastion/jump/management (locked down)
 
 
-Security controls
+### Security Controls
 NSG per subnet with rules:
 
 
